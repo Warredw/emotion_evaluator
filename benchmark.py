@@ -1,8 +1,7 @@
 import pandas as pd
-from sklearn.metrics import accuracy_score, roc_auc_score, f1_score, confusion_matrix
+from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 from models.vader import VaderModel
 from models.bert import BertModel
-from sklearn.metrics import classification_report
 
 
 

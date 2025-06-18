@@ -1,6 +1,7 @@
 import pandas as pd
 
 def evaluate_csv(df, vader_model, bert_model):
+    
     # Clean up text
     df["review"] = df["review"].str.replace("<br />", " ", regex=False)
 
