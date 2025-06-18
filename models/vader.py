@@ -9,3 +9,5 @@ class VaderModel:
 
     def get_sentiment(self, texts):
         return [self.analyzer.polarity_scores(t) for t in texts]
+    
+    
