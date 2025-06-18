@@ -4,6 +4,6 @@ class BertModel:
     def __init__(self):
         self.classifier = pipeline("sentiment-analysis", truncation=True)
 
-    def predict(self, texts):
+    def get_sentiment(self, texts):
         preds = self.classifier(texts)
         return [p['score'] if p['label'] == 'POSITIVE' else 1 - p['score'] for p in preds]
