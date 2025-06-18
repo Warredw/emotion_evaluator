@@ -1,4 +1,7 @@
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+import nltk
+nltk.download("vader_lexicon")
+
 
 class VaderModel:
     def __init__(self):
