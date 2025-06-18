@@ -23,8 +23,9 @@ This project is an NLP tool that classifies reviews as positive or negative usin
 git clone https://github.com/yourusername/emotion-evaluator.git
 cd emotion_evaluator
 python -m venv .venv
-.venv\Scripts\activate   # On Windows
-# or source .venv/bin/activate   # On macOS/Linux
+.venv\Scripts\activate # On Windows or 
+
+source .venv/bin/activate   # On macOS/Linux
 pip install -r requirements.txt
 
 ##  What to Run and Why
